@@ -1,0 +1,21 @@
+{
+  "name": "project_0_contact_management_app_using_node_and_exoress",
+  "version": "1.0.0",
+  "description": "This project contains the contact management app using node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Amshu G M",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1"
+  }
+}
